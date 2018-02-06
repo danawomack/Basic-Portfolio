@@ -1,0 +1,115 @@
+/* styles for my portfolio */
+
+body {
+background-image: url('../images/brickwall.png');
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+color: #777777;
+
+}
+
+div.content{
+    width:  960px; 
+}
+
+/* br.bar{
+    border-bottom: 10px solid red;
+    line-height: 350%;
+
+} */
+
+
+section.container {
+    
+    background-color: #ffffff;
+    height: 650px;
+    width: 650px;
+    margin-left: 150px;
+    margin-top: 200px;
+    clear: right;
+    overflow-wrap
+
+    
+}
+
+div.intro {
+
+    background-color:#4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 25px;
+    color: white;
+    margin-top: 0px;
+    margin-left: 150px;
+    line-height: 350%;
+    position: fixed;
+    padding:10px 20px; 
+    width: 190px;
+    text-align: center; 
+    clear: right;
+}
+
+
+
+
+h2{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 25px;
+   
+
+
+}
+   
+  
+
+
+div.aside {
+
+    float: right; 
+    background-color: #ffffff;
+    width: 270px;
+    height: 270px;
+    position: ;
+    left: 30px;
+    clear: left;
+    margin-top: 0px; 
+
+    left: 900px;
+    border: 3px  #73AD21;
+  
+    }
+
+
+
+
+  
+li {
+
+    /* need to get underlines to disappear and get the links in the proper order */
+    text-decoration: none;
+    display: inline;
+    float: right;
+    display: block;
+    padding: 10px 30px;
+    
+    
+}
+
+footer{
+
+    height: 60px;
+    align-content: center;
+    background-color: #666666;
+    clear: both;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    width: 1260px;
+    
+
+}
+
+
+p.icons {
+align: middle;
+
+
+}
