@@ -1,5 +1,6 @@
 /* styles for my portfolio */
 
+
 body {
 background-image: url('../images/brickwall.png');
 font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -8,30 +9,35 @@ color: #777777;
 }
 
 div.content{
+    /* This width seemed to work and not work at the same time. I measured it using the chrome plug-in and it does not match the 960px that I set it to but it did brin the side margins in siginificantly*/
     width:  960px; 
 }
 
-/* br.bar{
-    border-bottom: 10px solid red;
+br.bar{
+    border-bottom: 10px solid rgb(97, 93, 93);
     line-height: 350%;
+    position: fixed;
 
-} */
+} 
 
+/* could not get this section which contains the nav bar and my name to  stay fixed at the top of page */
 
 section.container {
     
     background-color: #ffffff;
-    height: 650px;
+    height: 400px;
     width: 650px;
     margin-left: 150px;
-    margin-top: 200px;
+    margin-top: 70px;
     clear: right;
-    overflow-wrap
+    line-height: 1.8;
 
     
 }
 
 div.intro {
+
+    /* Could not get my h1 to stay fixed at the top of the page */
 
     background-color:#4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -40,7 +46,7 @@ div.intro {
     margin-top: 0px;
     margin-left: 150px;
     line-height: 350%;
-    position: fixed;
+    position: relative;
     padding:10px 20px; 
     width: 190px;
     text-align: center; 
@@ -62,6 +68,8 @@ h2{
 
 
 div.aside {
+
+    /* could not get this to appear closer to the top of the page */
 
     float: right; 
     background-color: #ffffff;
@@ -89,6 +97,7 @@ li {
     float: right;
     display: block;
     padding: 10px 30px;
+    margin-top: 0px;
     
     
 }
