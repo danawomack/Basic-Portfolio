@@ -1,91 +1,97 @@
 <!doctype html>
 <html lang="eng">
 
-        <head>
+<head>
 
-                <meta charset="UTF-8">
-                <title>Contact Me</title>
-                <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-                <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-                  
-               
-            
-        </head>
+    <meta charset="UTF-8">
+    <title>About Dana Womack</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 
+</head>
 
 <body>
 
-     
-        <div class="content">    
-           
-                   <br class="bar">
-                       <div class="intro">
-                           <h1> 
-                           Dana Womack   
-                           </h1>
-                       </div>    
-           
-                           <ol class="pages"> 
-                               <!-- get these in order, remove lines, add dividing line -->
-                                   <li><a href="index.html">about</a></li>
-                                   <li><a href="portfolio.html">portfolio</a></li>
-                                   <li><a href="contact.html">contact</a></li>
-                           </ol>
-                    </br>       
-            <section class="container">   
-                        <h2>Contact</h2> 
 
-                        <p>Name</p>
-                            <input form="text" name="Name">
-                        <p>Email</p>    
-                            <input form="text" name="Email">
-                        <p>Message</p>    
-                            <input form="text" name="Message">
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Dana Womack</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-                        <p>
-                        <button type="button">Submit</button>    
-                        </p> 
-                            
 
-             </section>       
-             
-             <div class="aside">
-                    <h2>
-                            Connect with me
-                    </h2>    
-        
-                    <p class="icons"> 
-                            <a href="https://github.com/danawomack">
-                            <img src="./assets/images/githubpic.png" alt="github" height="55" width="55">
-                            </a>
-                            <a href="www.linkedin.com/in/dana-womack-319010108">
-                                <img src="./assets/images/linkedinpic.png" alt="linkedin" height="55" width="55">
-                            </a>
-                            <a href="https://stackexchange.com/users/12708758/dana">
-                                <img src="./assets/images/stackoverflowpic.png" alt="stackoverflow" height="55" width="55">
-                            </a>
-                    </p>
-                         
-                            
-        
-                </div>             
-        
-                <div ="footer">
-                    <footer>
-                        Copyright &copy; 2018 Dana Womack
-                    </footer>
-        
-                </div>    
+
+    <body>
+
+
+        <div id="main-container" class="container">
+            <section class="main-section">
+
+
+                <h1>Contact</h1>
+
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                        </li>
+                        <li>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required="required"></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit">
+                </form>
+
+                </section>
+
+
+
+                <section class="sidebar">
+                    <div id="connect">
+
+
+                        <h2>Connect with me</h2>
+
+
+                        <a href="#">
+                            <img src="./assets/images/githubpic.png" class="social" alt="github" height="55" width="55">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/images/linkedinpic.png" class="social" alt="linkedin" height="55" width="55">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/images/stackoverflowpic.png" class="social" alt="stackoverflow" height="55" width="55">
+                        </a>
+                    </div>
+                </section>
+
+
+
+
         </div>
 
-</body>
+
+        <footer>
+            <div class="container">
+                Copyright &copy; 2018 Dana Womack
+            </div>
+        </footer>
 
 
 
+        </div>
+    </body>
 
-
-
-
-
-</html>    
+</html>
